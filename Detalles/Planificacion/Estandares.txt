@@ -26,7 +26,7 @@
 
 	Diseñador de Diagramas: DIA
 	Link Descgarga: https://sourceforge.net/projects/dia-installer/
-	Diagramas de Flujo: https://sourceforge.net/projects/dia-installer/
+	Diagramas de Flujo: http://pseint.sourceforge.net/
 
 	//-----------------------------------------------------------------------//
 

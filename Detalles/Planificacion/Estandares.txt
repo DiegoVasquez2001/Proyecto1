@@ -1,0 +1,32 @@
+
+	#####################################
+	|	ESTÁNDARES PARA EL PROYECTO		|
+	#####################################
+
+	Lenguaje: C++
+	Upper Camel Case: Funciones
+	Lower Camel Case: Variables
+
+	EJEMPLOS DE VARIABLES
+
+	int sueldoEmpleado=0;
+	String matrizPlanilla[3][3];
+
+	EJEMPLO DE FUNCIONES
+
+	int CalcularSueldo()
+	{
+
+	}
+
+	//-------------------------------------------//
+
+	IDE: Dev-C++
+	Link Descarga: https://sourceforge.net/projects/orwelldevcpp/
+
+	Diseñador de Diagramas: DIA
+	Link Descgarga: https://sourceforge.net/projects/dia-installer/
+	Diagramas de Flujo: https://sourceforge.net/projects/dia-installer/
+
+	//-----------------------------------------------------------------------//
+

@@ -1,0 +1,6 @@
+1 Diego Ingeniero 50
+2 Carlos Ingeniero 50
+3 Moises Contador 45
+4 Josue Administrador 40
+5 Cristopher Mantenimiento 20
+6 Joel Seguridad 15

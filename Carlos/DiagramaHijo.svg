@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="53cm" height="12cm" viewBox="701 249 1059 239" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="702" y="337" width="182" height="46"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="702" y="337" width="182" height="46"/>
+  </g>
+  <text font-size="16.9785" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="814.8" y="365.05">
+    <tspan x="814.8" y="365.05">EMPLEADOS</tspan>
+  </text>
+  <text font-size="19.7556" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:700" x="726.4" y="366.05">
+    <tspan x="726.4" y="366.05">A</tspan>
+  </text>
+  <g>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="707.484" y="341" width="36.4194" height="37.6333"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="707.484" y="341" width="36.4194" height="37.6333"/>
+  </g>
+  <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="1445.46" cy="368.444" rx="95.998" ry="72.5"/>
+  <text font-size="16.9785" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:700" x="1287.64" y="263.67">
+    <tspan x="1287.64" y="263.67">HIJO 1</tspan>
+  </text>
+  <text font-size="16.9785" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1449.54" y="351.706">
+    <tspan x="1449.54" y="351.706">1.1</tspan>
+    <tspan x="1449.54" y="372.929"></tspan>
+    <tspan x="1449.54" y="394.152">AGREGAR EMPLEADO</tspan>
+  </text>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1377.58 317.178 C 1258.46,284.294 1030.5,246.25 891.69,354.029"/>
+    <polygon style="fill: #000000" points="885.766,358.629 890.598,348.547 891.69,354.029 896.731,356.445 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="885.766,358.629 890.598,348.547 891.69,354.029 896.731,356.445 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 1686.77 366.178 C 1697.67,244.04 1597.61,601.152 1452.16,448.004"/>
+    <polygon style="fill: #000000" points="1447,442.565 1457.51,446.373 1452.16,448.004 1450.26,453.26 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1447,442.565 1457.51,446.373 1452.16,448.004 1450.26,453.26 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:oblique;font-weight:normal" x="1682.43" y="397.852">
+    <tspan x="1682.43" y="397.852">-ID</tspan>
+    <tspan x="1682.43" y="413.852">- NOMBRE</tspan>
+    <tspan x="1682.43" y="429.852">- DPI</tspan>
+    <tspan x="1682.43" y="445.852">- NIT</tspan>
+    <tspan x="1682.43" y="461.852">- AF. IGSS</tspan>
+    <tspan x="1682.43" y="477.852">- ETC...</tspan>
+  </text>
+</svg>

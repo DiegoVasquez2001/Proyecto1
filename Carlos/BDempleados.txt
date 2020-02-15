@@ -1,0 +1,1 @@
+1	Juan	2222222	Ingeniero	50	1	Jose	5555555	Contador	40	

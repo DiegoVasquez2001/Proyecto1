@@ -1,0 +1,79 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main () {
+ int matA[100][100];
+
+ do {
+        cout << "*****MENU PRINCIPAL*****\n";
+        cout << "Ingreso de Datos-------1\n";
+
+		case 1:
+			system("cls");
+			IngresoMatrizA();
+			system("PAUSE");
+			break;
+
+		default:
+			system("cls");
+			gotoxy(20, 10); cout << "Ingrese una opcion valida" << endl;
+			system("PAUSE");
+			break;
+		}
+	} while (op != 10);
+	system("PAUSE");
+	return 0;
+}
+
+void IngresoMatrizA()
+{
+	gotoxy(20, 1); cout << "Ingresando Matriz A" << endl;
+	gotoxy(20, 3); cout << "Ingrese el Numero de Filas [   ]" << endl;
+	gotoxy(48, 3); cin >> filaa;
+	gotoxy(20, 4); cout << "Ingrese el Numero de Columnas [   ]" << endl;
+	gotoxy(51, 4); cin >> columnaa;
+	c = 14;
+	o = o + 2;
+	gotoxy(c, o); cout << "Ingrese Primera Matriz....";
+	for (int i = 0; i < filaa; i++)
+	{
+		if (i == i)
+		{
+			c = 14;
+		}
+
+		o = o + 1;
+
+		for (int j = 0; j < columnaa; j++)
+		{
+			c = c + 5;
+			gotoxy(c, o); cin >> matriza[i][j];
+		}
+	}
+}.
+void MostrarMatrizA()
+{
+		system("cls");
+		gotoxy(15, cn); cout << "Pimer Matriz ingresada es...";
+		cout << endl;
+		for (int i = 0; i < filaa; i++)
+		{
+			cn = cn + 1; gotoxy(15, cn);
+			for (int j = 0; j < columnaa; j++)
+			{
+				cout << matriza[i][j] << "\t";
+			}
+		}
+		cn = cn + 4;
+		gotoxy(15, cn); cout << "Segunda Matriz ingresada es...";
+		for (int i = 0; i < filab; i++)
+		{
+			cn = cn + 1; gotoxy(15, cn);
+			for (int j = 0; j < columnab; j++)
+			{
+				cout << matrizb[i][j] << "\t";
+			}
+			cout << "\n";
+		}
+}

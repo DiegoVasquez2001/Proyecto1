@@ -1,0 +1,114 @@
+private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        String nombre="";
+        String puesto="";
+        double sueldo=0.0;
+        
+        nombre = N1.getText();
+        puesto = C1.getSelectedItem().toString();
+        switch(puesto)
+        {
+            case "Contador Gra1.":
+                sueldo=6000;
+                break;
+            case "Auxiliar Cont.":
+                sueldo=2000;
+                break;
+            case "Secretaria":
+                sueldo=2500;
+                break;
+            case "Vendedor(a)":
+                sueldo=1000;
+                break;
+            case "Chofer":
+                sueldo=1800;
+                break;
+            case "Mensajero":
+                sueldo=900;
+                break;
+        }
+        
+        double igss=0;
+        igss=sueldo*0.0483;
+        double isr=0;
+        if(sueldo*12 >= 150000){
+            isr=isr+71.98;
+        } else {
+            isr=isr+0;
+        }
+        double sueldoex=0, comisiones=0, otrosing=0;
+        sueldoex=Double.parseDouble(I1.getText());
+        comisiones=Double.parseDouble(I2.getText());
+        otrosing=Double.parseDouble(I3.getText());
+        double toting=0;
+        toting = 154.5+sueldo+sueldoex+comisiones+otrosing;
+        
+        double anticipos=0, desjud=0, otrosdes=0;
+        double totdesc=0;
+        anticipos=Double.parseDouble(D1.getText());
+        desjud=Double.parseDouble(D2.getText());
+        otrosdes=Double.parseDouble(D3.getText());
+        
+        totdesc=igss+isr+anticipos+desjud+otrosdes;
+        
+        double sueldoliq=0;
+        sueldoliq = toting-totdesc;
+        
+        Object[] data = new Object[15];
+        data[0]=nombre;
+        data[1]=puesto;
+        data[2]=String.valueOf(sueldo);
+        data[3]=String.valueOf(sueldoex);
+        data[4]="154.5";
+        data[5]=String.valueOf(comisiones);
+        data[6]=String.valueOf(otrosing);
+        data[7]=String.valueOf(toting);
+        data[8]=String.valueOf(igss);
+        data[9]=String.valueOf(isr);
+        data[10]=String.valueOf(anticipos);
+        data[11]=String.valueOf(desjud);
+        data[12]=String.valueOf(otrosdes);
+        data[13]=String.valueOf(totdesc);
+        data[14]=String.valueOf(sueldoliq);
+        DefaultTableModel modelo = (DefaultTableModel) T1.getModel();
+        modelo.addRow(data);
+        T1.setModel(modelo);
+        
+        N1.setText("");
+        I1.setText("");
+        I2.setText("");
+        I3.setText("");
+        D1.setText("");
+        D2.setText("");
+        D3.setText("");
+        N1.requestFocus();
+    }                          
+    
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        DefaultTableModel modelo = (DefaultTableModel) T1.getModel();
+        float t2=0; String t0="";
+        for(int i=0; i<modelo.getRowCount(); i++)
+        {
+            t0=(String)modelo.getValueAt(i,14);
+            t2=t2+Float.parseFloat(t0);
+        }
+        TOT1.setText(String.valueOf(t2));
+                                           
+
+    }                                        
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+       DefaultTableModel model=(DefaultTableModel) T1.getModel();
+       int a = T1.getSelectedRow();
+       if (a<0) {
+           JOptionPane.showMessageDialog(null, 
+                   "Debe seleccionar una fila de la tabla");
+       }
+       else {
+           int Confirmar=JOptionPane.showConfirmDialog(null,
+               "Esta seguro que desea Eliminar el Registro?");
+                model.removeRow(a);
+                JOptionPane.showMessageDialog(null,
+                        "Registro Eliminado");
+       }
+    
+    }                                       
